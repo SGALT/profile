@@ -16,7 +16,7 @@ body {
 }
 
 .card {
-  border: solid;
+  border: unset;
   border-width: 0.5px;
   border-color: rgba(100, 100 , 100, 0.8);
   box-shadow: 3px 3px 3px darkgrey;
