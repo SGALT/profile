@@ -5,92 +5,97 @@
   <title>My profile page</title>
   <!-- Fontawesome Stylesheet -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700|Rokkitt:500" rel="stylesheet">
 </head>
 <body>
 
   <div class="container">
-    <div class="header">
-        <img src="images/batch_191.jpg" class="profile-picture centered-profile-picture shadowed rounded-image" alt="picture of me">
+    <div class="banner">
+      <img src="images/batch_191.jpg" alt="" class="banner-avatar avatar">
+      <div class="banner-content">
+        <h1>Sylvain Galtier</h1>
+        <h2>Junior Programmer</h2>
+      </div>
+      <div class="banner-btn">
+        <a href="mailto:sylvaingaltier@gmail.com" class="mail-btn">Contact</a>
+      </div>
     </div>
-
-    <div class="centered-text">
+    <div class="banner-footer">
       <ul>
-        <li class="li-social-links">
+        <li class="banner-footer-social-links">
           <a href="https://www.linkedin.com/in/sylvain-galtier-61723087/" target="_blank">
             <i class="fab fa-linkedin-in"></i> Linkedin</a>
         </li>
-        <li class="li-social-links">
+        <li class="banner-footer-social-links">
           <a href="http://www.viadeo.com/p/00224hc8nel02gbz" target="_blank">
             <i class="fab fa-viadeo-square"></i> Viadeo</a>
         </li>
-        <li class="li-social-links">
+        <li class="banner-footer-social-links">
           <a href="https://github.com/SGALT" target="_blank">
             <i class="fab fa-github"></i> Github</a>
         </li>
       </ul>
     </div>
-
-    <div class="card">
-      <h1>Sylvain Galtier</h1>
-
-      <h2>Junior Programmer</h2>
-
-      <p class="centered-text">Junior programmer with a 13 years Carreer as a Salesman in big companies </p>
-    </div>
-
-    <div class="card">
-      <h2 class="centered-text">
+  </div>
+  <div class="cards">
+    <h2 class="card-title">
         Experiences
-      </h2>
-      <ul class="centered-text puces-off">
-        <li><img src="images/placo.png" class="logo-small" alt="placo logo"></li>
-        <li class="padding-left centered-text text_spaced">Placoplatre - Saint Gobain - 4 years</li>
-        <li><img src="images/tti.png" class="logo-small" alt="tti logo"></li>
-        <li class="padding-left centered-text text_spaced">T.T.I. France - 4 years</li>
-        <li><img src="images/mars.jpg" class="logo-small" alt="mars logo"></li>
-        <li class="padding-left centered-text text_spaced">Mars Chocolat France - 4 years</li>
-      </ul>
+    </h2>
+    <div class="cards-exp">
+      <div class="card-placo">
+          <img src="images/placo.png" class="card-logo logo-small" alt="placo logo">
+          <p class="card-text">
+            Responsable pour le 1/4 Sud Ouest sur le poste Libre Service Négoce : Développement des Libres Services dans les négoces pour les marques PLACO et ISOVER. Commercialisation des marques PLAFOMETAL (négoces matériaux) et OPTIROC (négoces peintures) sur un portefeuille de négoces établi. Prospection des nouveaux clients pour ces marques selon stratégie groupe.
+          </p>
+          <p class="card-desc">Placoplatre - Saint Gobain - 4 years</p>
+      </div>
+      <div class="card-tti">
+          <img src="images/tti.png" class="card-logo logo-tti" alt="tti logo">
+          <p class="card-text">
+             gestion d'un portefeuille de + de 150 clients GSB (Grande Surface de Bricolage), départements : 33/24/40/46/47. Suivi des gammes dans les Magasins intégrés à un groupement (LEROY MERLIN, CASTORAMA...). Prise de commandes en direct et suivi de celles ci.Prospection nouveaux clients négociation de promotions, d'opération "sauvages"
+          </p>
+          <p class="card-desc">T.T.I. France - 4 years</p>
+      </div>
+      <div class="card-mars">
+          <img src="images/mars.jpg" class="card-logo logo-small" alt="mars logo">
+          <p class="card-text">
+            Gestion d'un portefeuille de 56 magasins. Missions : DN, Merchandising (gain de PDL, réimplantation, implantations nouveautés...), Promotions ( négociations, mise en place...), Négociations (mise en place d'opérations exceptionnelles, négociations agrandissement...), Manager d'une promotrice des ventes (Pilotage et analyse des résultats, motivation dans l’atteinte des objectifs).
+          </p>
+          <p class="card-desc">Mars Chocolat France - 4 years</p>
+      </div>
     </div>
-
-    <div class="card">
-      <table class="centered-text centered">
-        <thead>
-          <tr>
-            <th colspan="2" class="bold bigger-police">Skills</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td class="bold">Front end</td>
-            <td>
-              <img src="images/css.png" class="logo-picture" alt="css logo">
-              <img src="images/js.png" class="logo-picture" alt="js logo">
-              <img src="images/html.png" class="logo-picture" alt="html logo">
-            </td>
-          </tr>
-          <tr>
-            <td class="bold">Back end</td>
-            <td>
-              <img src="images/postgre.png" class="logo-picture" alt="postgre logo">
-              <img src="images/rails.png" class="logo-picture" alt="rails logo">
-             <img src="images/ruby.png" class="logo-picture" alt="ruby logo">
-            </td>
-          </tr>
-          <tr>
-            <td class="bold">Salesman</td>
-            <td>
-              <img src="images/customers.png" class="logo-picture" alt="customers logo">
-              <img src="images/sales.png" class="logo-picture" alt="sales logo">
-            </td>
-          </tr>
-        </tbody>
-      </table>
+    <div class="cards">
+      <h2 class="card-title">
+          Skills
+      </h2>
+      <div class="card-skills">
+        <div class="card-skill">
+          <h2 class="card-skill-title">
+            Salesman
+          </h2>
+          <img src="images/customers.png" alt="" class="card-skill_img logo-picture">
+          <img src="images/negociation.png" alt="" class="card-skill_img logo-picture">
+          <img src="images/sales.png" alt="" class="card-skill_img logo-picture">
+        </div>
+        <div class="card-skill">
+          <h2 class="card-skill-title">
+            Front End
+          </h2>
+          <img src="images/html.png" alt="" class="card-skill_img logo-picture">
+          <img src="images/css.png" alt="" class="card-skill_img logo-picture">
+          <img src="images/js.png" alt="" class="card-skill_img logo-picture">
+        </div>
+        <div class="card-skill">
+          <h2 class="card-skill-title">
+            Back End
+          </h2>
+          <img src="images/ruby.png" alt="" class="card-skill_img logo-picture">
+          <img src="images/rails.png" alt="" class="card-skill_img logo-picture">
+          <img src="images/postgre.png" alt="" class="card-skill_img logo-picture">
+        </div>
+      </div>
     </div>
   </div>
-  <footer>
-    <a href="mailto:sylvaingaltier@gmail.com" class="mail-button">Contact</a>
-  </footer>
 </body>
 </html>

@@ -1,0 +1,26 @@
+@import url("components/avatar.css");
+@import url("components/card.css");
+@import url("components/logo.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+
+
+
+body {
+  background-color: rgba(200, 200 , 200, 0.7);
+  margin-top: 0;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+p, ul, table {
+  font-family: 'Rokkitt', serif;
+}

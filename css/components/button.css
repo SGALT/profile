@@ -1,0 +1,13 @@
+.mail-btn {
+  color: white;
+  border-radius: 4px;
+  background-color: rgba(85, 85 , 85, 1);
+  box-shadow: 2px 2px 3px rgba(25, 25 , 25, 0.7);
+  padding: 5px;
+}
+
+.mail-btn:hover {
+  background-color: rgba(175, 175 , 175, 1);
+  color: rgba(125, 125 , 125, 1);
+}
+

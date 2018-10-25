@@ -1,0 +1,17 @@
+.logo-picture {
+  width: 85px;
+}
+
+.logo-small {
+  width: 95px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.logo-tti {
+  width: 60px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}

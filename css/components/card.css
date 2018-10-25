@@ -1,0 +1,114 @@
+.cards {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.cards-exp {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.card-skills {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0;
+}
+
+.card-skill {
+    background-color: rgba(180, 180, 180, 1);
+    color: white;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px darkgrey;
+}
+
+.card {
+  border: unset;
+  border-width: 0.5px;
+  border-color: rgba(100, 100 , 100, 0.8);
+  box-shadow: 3px 3px 3px darkgrey;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color: rgba(235, 235 , 235, 1);
+  border-radius: 5px;
+}
+
+.card-title {
+  margin: 30px;
+  font-size: 30px;
+  color: whitesmoke;
+}
+
+.card-placo {
+  background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+  url('https://shannonnoelphoto.com/wp-content/uploads/2018/08/plafond-en-placo-platre-luxe-of-plafond-en-placo-platre.jpg');
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  color: white;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px darkgrey;
+}
+
+
+.card-tti {
+  background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+  url('https://d22bb5tpedydnw.cloudfront.net/medialibraries/aegpowertools/general/home/home-our-products-600x345px.jpg');
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  color: white;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px darkgrey;
+}
+
+.card-mars {
+  background-image:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+  url('https://img.bfmtv.com/c/1000/600/41d/4e184699efcac22ad9f59da485d65.JPG');
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+  color: white;
+  position: relative;
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px darkgrey;
+}
+
+.card-placo:hover {
+  opacity: 0.5;
+  transition: all 0.4s ease;
+}
+
+.card-tti:hover {
+  opacity: 0.5;
+  transition: all 0.4s ease;
+}
+
+.card-mars:hover {
+  opacity: 0.5;
+  transition: all 0.4s ease;
+}
+
+.card-desc {
+  position: absolute;
+  bottom: 4px;
+  left: 4px;
+}
+
+.card-text {
+  font-size: 14px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 3px;
+  top: 35px;
+  opacity: 0;
+}
+
+.card-text:hover {
+  opacity: 1;
+  transition: all 0.4s ease;
+}
